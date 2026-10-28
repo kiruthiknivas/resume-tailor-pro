@@ -1,0 +1,16 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+venv/
+.venv/
+env/
+.env
+output/*.pdf
+output/*.tex
+output/*.png
+uploads/*
+!uploads/.gitkeep

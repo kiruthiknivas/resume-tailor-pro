@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Environment / Secret Keys
+.env
+
+# Generated Output files (keep directory, ignore transient PDFs)
+output/*.pdf
+output/*.tex
+output/*.png
+output/*.log
+output/*.aux
+output/*.out
+
+# Uploaded candidate files (transient)
+uploads/*
+!uploads/.gitkeep
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
